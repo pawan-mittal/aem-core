@@ -1,5 +1,5 @@
 # AEM Core
-AEM Core contains multiple AEM Maven projects that are code companions for a corresponding tutorial found on https://www.youtube.com/watch?v=H8CuxJrFUE8&amp;list=PLuhccDNJoBAxrhEDbuDYhYPTUrSGinsu6
+AEM Core contains multiple AEM Maven projects that are code companions for a corresponding tutorial found on https://www.youtube.com/playlist?list=PLuhccDNJoBAxrhEDbuDYhYPTUrSGinsu6
 
 # Current AEM Features
 
