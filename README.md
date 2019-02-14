@@ -61,7 +61,7 @@ autoInstallPackagePublish | Install the ui.content and ui.apps content package w
 
 The profile `integrationTests` is also available for the verify goal, to run the provided integration tests on the AEM instance.
 
-### Create SAMPLE project in batch mode (shown in [Youtube Video](https://www.youtube.com/watch?v=H8CuxJrFUE8))
+### SAMPLE - Create project in batch mode (shown in [Youtube Video](https://www.youtube.com/watch?v=H8CuxJrFUE8))
 
 In batch mode all the required parameters muse be set via `-Dparameter=value` argument.
 ```
