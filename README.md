@@ -1,8 +1,7 @@
-## SPA Editor Guide
+## Create Project Guide
 
-SPA Editor Guide walks through the process of setting up an AEM project to leverage the Single Page App or SPA Editor feature.
+This guide creates a minimal Adobe Experience Manager project as a starting point for your own SPA projects.
 
 View the tutorial on Youtube : Create a React App using AEM SPA Editor (https://www.youtube.com/watch?v=H8CuxJrFUE8&amp;list=PLuhccDNJoBAxrhEDbuDYhYPTUrSGinsu6)
 
-## Solution Branches on GitHub
-
+if you have watched the video, then You can use this code for reference, also get started with SPA coding.
