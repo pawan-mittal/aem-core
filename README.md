@@ -61,9 +61,24 @@ autoInstallPackagePublish | Install the ui.content and ui.apps content package w
 
 The profile `integrationTests` is also available for the verify goal, to run the provided integration tests on the AEM instance.
 
+#### Update the CORS configuration of the AEM instance (for React App)
+1. Navigate to the Configuration Manager on the AEM instance at http://localhost:4502/system/console/configMgr
+2. Look for the configuration: Adobe Granite Cross-Origin Resource Sharing Policy
+3. Create a new configuration with the following additional values:
+    * Allowed Origins: http://localhost:3000
+    * Supported Headers: Authorization
+    * Allowed Methods: OPTIONS
+    
+# Result
+ AEM SPA Page - http://localhost:4502/editor.html/content/aemsamplereactapp/en.html
+ 
+ React App - http://localhost:3000/content/aemsamplereactapp/en/home.html
+
 ### SAMPLE - Create project in batch mode (shown in [Youtube Video](https://www.youtube.com/watch?v=H8CuxJrFUE8))
 
-In batch mode all the required parameters muse be set via `-Dparameter=value` argument.
+In batch mode all the required parameters muse be set via `-Dparameter=value` argument. 
+
+*Note: -DarchetypeVersion value must be synced with [AEM SPA Archetype version](https://github.com/adobe/aem-spa-project-archetype)*
 ```
 $ mvn archetype:generate -B \
      -DarchetypeCatalog=local  \
