@@ -6,3 +6,4 @@ View the tutorial on Youtube : Create a React App using AEM SPA Editor (https://
 
 ## Solution Branches on GitHub
 
+# [Part 1 - Create Project](https://github.com/pawan-mittal/aem-core/tree/feature/aem-spa-guide-part1 "Create Project")
