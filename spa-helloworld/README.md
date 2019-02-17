@@ -13,11 +13,11 @@ The completed code files for the tutorial component can be found here:
 
 #### AEM Code
 
-* [HelloWorld AEM Component](./spa-helloworld/src/content/helloworld)
-* [HelloWorld.java](./spa-helloworld/src/bundles/commons/HelloWorld.java)
+* [HelloWorld AEM Component](./src/content/helloworld)
+* [HelloWorld.java](./src/bundles/commons/HelloWorld.java)
 
 ### React Code
 
-* [HelloWorld.js](./spa-helloworld/src/react-app/components/HelloWorld.js)
-* [HelloWorld.css](./spa-helloworld/src/react-app/components/HelloWorld.css)
-* [ImportedComponents.js](./spa-helloworld/src/react-app/ImportComponents.js)
+* [HelloWorld.js](./src/react-app/components/HelloWorld.js)
+* [HelloWorld.css](./src/react-app/components/HelloWorld.css)
+* [ImportedComponents.js](./src/react-app/ImportComponents.js)
