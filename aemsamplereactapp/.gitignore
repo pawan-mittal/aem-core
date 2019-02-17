@@ -17,8 +17,8 @@ crx-quickstart
 target
 
 # Ignore IDE and Operating System artifacts
-.vscode/settings.json
 .idea
+.vscode/settings.json
 .classpath
 .metadata
 .project
