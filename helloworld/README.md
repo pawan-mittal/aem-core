@@ -1,7 +1,7 @@
 # SPA Editor React - HelloWorld Component Guide
 
 This code is reference from _[SPA Editor HelloWorld Guide](https://github.com/Adobe-Marketing-Cloud/aem-guides/tree/master/spa-helloworld-guide)_
-This is the code companion for .
+This is the code companion for video https://youtu.be/64po0382czc .
 
 ## SRC
 
