@@ -1,6 +1,6 @@
 # SPA Editor React - HelloWorld Component Guide
 
-This code is reference from [SPA Editor HelloWorld Guide](https://github.com/pawan-mittal/aem-core/tree/feature/aem-spa-guide-part2/aemsamplereactapp)
+This code is reference from [SPA Editor HelloWorld Guide](https://github.com/pawan-mittal/aem-core/tree/feature/aem-spa-guide-part2/samplereactapp)
 This is the code companion for .
 
 ## SRC
