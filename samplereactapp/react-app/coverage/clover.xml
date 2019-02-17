@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1550390948309" clover="3.2.0">
-  <project timestamp="1550390948309" name="All files">
+<coverage generated="1550391535948" clover="3.2.0">
+  <project timestamp="1550391535948" name="All files">
     <metrics statements="47" coveredstatements="35" conditionals="28" coveredconditionals="18" methods="15" coveredmethods="11" elements="90" coveredelements="64" complexity="0" loc="47" ncloc="47" packages="7" files="10" classes="10">
       <package name="App">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <file name="App.css" path="/Users/pmittal/git-projects/my-github/aem-core/aemsamplereactapp/react-app/src/components/App/App.css">
+        <file name="App.css" path="/Users/pmittal/git-projects/my-github/aem-core/samplereactapp/react-app/src/components/App/App.css">
           <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
           <line num="1" count="1" type="stmt"/>
         </file>
-        <file name="index.js" path="/Users/pmittal/git-projects/my-github/aem-core/aemsamplereactapp/react-app/src/components/App/index.js">
+        <file name="index.js" path="/Users/pmittal/git-projects/my-github/aem-core/samplereactapp/react-app/src/components/App/index.js">
           <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
           <line num="19" count="1" type="stmt"/>
           <line num="24" count="1" type="stmt"/>
@@ -16,7 +16,7 @@
       </package>
       <package name="CustomModelClient">
         <metrics statements="11" coveredstatements="11" conditionals="8" coveredconditionals="7" methods="2" coveredmethods="2"/>
-        <file name="index.js" path="/Users/pmittal/git-projects/my-github/aem-core/aemsamplereactapp/react-app/src/components/CustomModelClient/index.js">
+        <file name="index.js" path="/Users/pmittal/git-projects/my-github/aem-core/samplereactapp/react-app/src/components/CustomModelClient/index.js">
           <metrics statements="11" coveredstatements="11" conditionals="8" coveredconditionals="7" methods="2" coveredmethods="2"/>
           <line num="19" count="1" type="stmt"/>
           <line num="38" count="4" type="cond" truecount="2" falsecount="0"/>
@@ -33,7 +33,7 @@
       </package>
       <package name="HelloWorld">
         <metrics statements="9" coveredstatements="0" conditionals="5" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <file name="HelloWorld.js" path="/Users/pmittal/git-projects/my-github/aem-core/aemsamplereactapp/react-app/src/components/HelloWorld/HelloWorld.js">
+        <file name="HelloWorld.js" path="/Users/pmittal/git-projects/my-github/aem-core/samplereactapp/react-app/src/components/HelloWorld/HelloWorld.js">
           <metrics statements="9" coveredstatements="0" conditionals="5" coveredconditionals="0" methods="2" coveredmethods="0"/>
           <line num="1" count="0" type="stmt"/>
           <line num="2" count="0" type="stmt"/>
@@ -48,11 +48,11 @@
       </package>
       <package name="Page">
         <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
-        <file name="Page.css" path="/Users/pmittal/git-projects/my-github/aem-core/aemsamplereactapp/react-app/src/components/Page/Page.css">
+        <file name="Page.css" path="/Users/pmittal/git-projects/my-github/aem-core/samplereactapp/react-app/src/components/Page/Page.css">
           <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
           <line num="1" count="1" type="stmt"/>
         </file>
-        <file name="index.js" path="/Users/pmittal/git-projects/my-github/aem-core/aemsamplereactapp/react-app/src/components/Page/index.js">
+        <file name="index.js" path="/Users/pmittal/git-projects/my-github/aem-core/samplereactapp/react-app/src/components/Page/index.js">
           <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
           <line num="19" count="1" type="stmt"/>
           <line num="26" count="2" type="stmt"/>
@@ -62,7 +62,7 @@
       </package>
       <package name="RouteHelper">
         <metrics statements="8" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="2"/>
-        <file name="index.js" path="/Users/pmittal/git-projects/my-github/aem-core/aemsamplereactapp/react-app/src/components/RouteHelper/index.js">
+        <file name="index.js" path="/Users/pmittal/git-projects/my-github/aem-core/samplereactapp/react-app/src/components/RouteHelper/index.js">
           <metrics statements="8" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="2"/>
           <line num="30" count="2" type="stmt"/>
           <line num="31" count="6" type="stmt"/>
@@ -76,11 +76,11 @@
       </package>
       <package name="Text">
         <metrics statements="7" coveredstatements="6" conditionals="5" coveredconditionals="2" methods="4" coveredmethods="3"/>
-        <file name="Text.css" path="/Users/pmittal/git-projects/my-github/aem-core/aemsamplereactapp/react-app/src/components/Text/Text.css">
+        <file name="Text.css" path="/Users/pmittal/git-projects/my-github/aem-core/samplereactapp/react-app/src/components/Text/Text.css">
           <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
           <line num="1" count="1" type="stmt"/>
         </file>
-        <file name="index.js" path="/Users/pmittal/git-projects/my-github/aem-core/aemsamplereactapp/react-app/src/components/Text/index.js">
+        <file name="index.js" path="/Users/pmittal/git-projects/my-github/aem-core/samplereactapp/react-app/src/components/Text/index.js">
           <metrics statements="6" coveredstatements="5" conditionals="5" coveredconditionals="2" methods="4" coveredmethods="3"/>
           <line num="21" count="1" type="stmt"/>
           <line num="28" count="1" type="stmt"/>
@@ -92,7 +92,7 @@
       </package>
       <package name="Utils">
         <metrics statements="4" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
-        <file name="index.js" path="/Users/pmittal/git-projects/my-github/aem-core/aemsamplereactapp/react-app/src/components/Utils/index.js">
+        <file name="index.js" path="/Users/pmittal/git-projects/my-github/aem-core/samplereactapp/react-app/src/components/Utils/index.js">
           <metrics statements="4" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
           <line num="23" count="6" type="cond" truecount="2" falsecount="0"/>
           <line num="27" count="1" type="stmt"/>

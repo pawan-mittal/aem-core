@@ -1,5 +1,5 @@
 TN:
-SF:/Users/pmittal/git-projects/my-github/aem-core/aemsamplereactapp/react-app/src/components/App/App.css
+SF:/Users/pmittal/git-projects/my-github/aem-core/samplereactapp/react-app/src/components/App/App.css
 FNF:0
 FNH:0
 DA:1,1
@@ -9,7 +9,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:/Users/pmittal/git-projects/my-github/aem-core/aemsamplereactapp/react-app/src/components/App/index.js
+SF:/Users/pmittal/git-projects/my-github/aem-core/samplereactapp/react-app/src/components/App/index.js
 FN:23,(anonymous_0)
 FNF:1
 FNH:1
@@ -22,7 +22,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:/Users/pmittal/git-projects/my-github/aem-core/aemsamplereactapp/react-app/src/components/CustomModelClient/index.js
+SF:/Users/pmittal/git-projects/my-github/aem-core/samplereactapp/react-app/src/components/CustomModelClient/index.js
 FN:36,(anonymous_0)
 FN:46,(anonymous_1)
 FNF:2
@@ -54,7 +54,7 @@ BRF:8
 BRH:7
 end_of_record
 TN:
-SF:/Users/pmittal/git-projects/my-github/aem-core/aemsamplereactapp/react-app/src/components/HelloWorld/HelloWorld.js
+SF:/Users/pmittal/git-projects/my-github/aem-core/samplereactapp/react-app/src/components/HelloWorld/HelloWorld.js
 FN:9,(anonymous_0)
 FN:16,(anonymous_1)
 FNF:2
@@ -81,7 +81,7 @@ BRF:5
 BRH:0
 end_of_record
 TN:
-SF:/Users/pmittal/git-projects/my-github/aem-core/aemsamplereactapp/react-app/src/components/Page/Page.css
+SF:/Users/pmittal/git-projects/my-github/aem-core/samplereactapp/react-app/src/components/Page/Page.css
 FNF:0
 FNH:0
 DA:1,1
@@ -91,7 +91,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:/Users/pmittal/git-projects/my-github/aem-core/aemsamplereactapp/react-app/src/components/Page/index.js
+SF:/Users/pmittal/git-projects/my-github/aem-core/samplereactapp/react-app/src/components/Page/index.js
 FN:25,(anonymous_0)
 FNF:1
 FNH:1
@@ -110,7 +110,7 @@ BRF:4
 BRH:3
 end_of_record
 TN:
-SF:/Users/pmittal/git-projects/my-github/aem-core/aemsamplereactapp/react-app/src/components/RouteHelper/index.js
+SF:/Users/pmittal/git-projects/my-github/aem-core/samplereactapp/react-app/src/components/RouteHelper/index.js
 FN:30,(anonymous_0)
 FN:32,(anonymous_1)
 FN:41,(anonymous_2)
@@ -137,7 +137,7 @@ BRF:4
 BRH:4
 end_of_record
 TN:
-SF:/Users/pmittal/git-projects/my-github/aem-core/aemsamplereactapp/react-app/src/components/Text/Text.css
+SF:/Users/pmittal/git-projects/my-github/aem-core/samplereactapp/react-app/src/components/Text/Text.css
 FNF:0
 FNH:0
 DA:1,1
@@ -147,7 +147,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:/Users/pmittal/git-projects/my-github/aem-core/aemsamplereactapp/react-app/src/components/Text/index.js
+SF:/Users/pmittal/git-projects/my-github/aem-core/samplereactapp/react-app/src/components/Text/index.js
 FN:32,(anonymous_0)
 FN:42,(anonymous_1)
 FN:46,(anonymous_2)
@@ -175,7 +175,7 @@ BRF:5
 BRH:2
 end_of_record
 TN:
-SF:/Users/pmittal/git-projects/my-github/aem-core/aemsamplereactapp/react-app/src/components/Utils/index.js
+SF:/Users/pmittal/git-projects/my-github/aem-core/samplereactapp/react-app/src/components/Utils/index.js
 FN:22,extractModelId
 FN:26,isBrowser
 FNF:2
