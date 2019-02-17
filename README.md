@@ -5,3 +5,4 @@ SPA Editor Guide walks through the process of setting up an AEM project to lever
 ## Solution Branches on GitHub
 
 ### _[Part 1 - Create Project](https://github.com/pawan-mittal/aem-core/tree/feature/aem-spa-guide-part1 "Create Project")_
+### _[Part 2 - React - HelloWorld Component](https://github.com/pawan-mittal/aem-core/tree/feature/aem-spa-guide-part2 "React - Create HelloWorld Component")_
