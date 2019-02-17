@@ -1,13 +1,13 @@
 # SPA Editor React - HelloWorld Component Guide
 
-This code is reference from [SPA Editor HelloWorld Guide](https://github.com/pawan-mittal/aem-core/tree/feature/aem-spa-guide-part2/aemsamplereactapp)
+This code is reference from _[SPA Editor HelloWorld Guide](https://github.com/Adobe-Marketing-Cloud/aem-guides/tree/master/spa-helloworld-guide)_
 This is the code companion for .
 
 ## SRC
 
 This project is not the source of the AEM Sample React App, but merely the delta source code used to add a HelloWorld Component in the React AEM Sample React App.
 
-See here for the full source code of [Sample React Single Page Application](https://github.com/pawan-mittal/aem-core/tree/feature/aem-spa-guide-part2)
+See here for the full source code of [Sample React Single Page Application](https://github.com/pawan-mittal/aem-core/tree/feature/aem-spa-guide-part2/samplereactapp)
 
 The completed code files for the tutorial component can be found here:
 
