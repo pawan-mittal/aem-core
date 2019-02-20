@@ -1,11 +1,10 @@
-# SPA Editor Guide
+# AEM Firebase Guide
 
-SPA Editor Guide walks through the process of setting up an AEM project to leverage the Single Page App or SPA Editor feature.
+AEM Firebase Guide walks through the process of setting up an AEM project to leverage the firebase web features.
 
 ## Solution Branches on GitHub
 
-### _[Part 1 - Create Project](https://github.com/pawan-mittal/aem-core/tree/feature/aem-spa-guide-part1 "Create Project")_
-### _[Part 2 - React - HelloWorld Component](https://github.com/pawan-mittal/aem-core/tree/feature/aem-spa-guide-part2 "React - Create HelloWorld Component")_
+### _[Part 1 - Create Project](https://github.com/pawan-mittal/aem-core/tree/feature/aem-firebase-webpush "Create Project")_
 
 
-![Thumbnail](https://pawan-mittal.github.io/allassets.github.io/aem-core/spa-editor/aem-spa-react-thumbnail.jpg)
+![Thumbnail](https://pawan-mittal.github.io/allassets.github.io/aem-core/spa-editor/aem-firebase-thumbnail.jpg)
