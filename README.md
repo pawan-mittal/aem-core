@@ -1,10 +1,13 @@
-# AEM Firebase Guide
+# AEM Firebase Send WebPush
 
-AEM Firebase Guide walks through the process of setting up an AEM project to leverage the firebase web features.
+This project will help you in enabling AEM site for webpush which will require user permission to allow for Push Notifications in browser (chrome/firefox).
 
-## Solution Branches on GitHub
+# Setup
 
-### _[1. Send WebPush](https://github.com/pawan-mittal/aem-core/tree/feature/aem-firebase-webpush "Create Project")_
+## Create Firebase Project
 
+## Install AEM Project
 
-![Thumbnail](https://pawan-mittal.github.io/allassets.github.io/aem-core/firebase/aem-firebase-thumbnail.jpg)
+## Configure AEM Page component with Firebase Webpush settings
+
+## Demo
