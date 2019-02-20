@@ -1,0 +1,102 @@
+<script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+<!-- Firebase App is always required and must be first -->
+<script src="https://www.gstatic.com/firebasejs/5.8.2/firebase-app.js"></script>
+<!-- Add additional services that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/5.8.2/firebase-messaging.js"></script>
+
+<script>
+
+	// Initialize Firebase
+    var config = {
+        apiKey: "",
+        authDomain: "",
+        databaseURL: "",
+        projectId: "",
+        storageBucket: "",
+        messagingSenderId: ""
+    };
+	firebase.initializeApp(config);
+
+    navigator.serviceWorker.getRegistrations().then(function(registrations) { 
+        for(let registration of registrations) { 
+            console.log("registration.unregister");
+            registration.unregister() 
+        } 
+    })
+
+    navigator.serviceWorker.register('/apps/firebase-webpush/components/structure/firebase-page/firebase-messaging-sw.js') .then((registration) => { 
+
+        // Retrieve Firebase Messaging object.
+        const messaging = firebase.messaging();
+        messaging.useServiceWorker(registration); 
+
+        // Add the public key generated from the console here.
+        messaging.usePublicVapidKey('');
+
+        // Handle incoming messages. Called when:
+        // - a message is received while the app has focus
+        // - the user clicks on an app notification created by a service worker
+        //   `messaging.setBackgroundMessageHandler` handler.
+        messaging.onMessage(function(payload) {
+            console.log('Message received. ', payload);
+        });
+
+        function getToken() {
+            // Get Instance ID token. Initially this makes a network call, once retrieved
+            // subsequent calls to getToken will return from cache.
+            messaging.getToken().then(function(currentToken) {
+                console.log("currentToken: " + currentToken);
+                if (currentToken) {
+					// save token on server
+					subscribeToTopic(currentToken); // subscribe to topic "firebase-webpush"
+                } else {
+                    // Show permission request.
+                    console.log('No Instance ID token available. Request permission to generate one.');
+                }
+            }).catch(function(err) {
+                console.log('An error occurred while retrieving token. ', err);
+            });
+        }
+
+        function requestPermission() {
+            console.log('Requesting permission...');
+            // [START request_permission]
+            messaging.requestPermission().then(function() {
+                console.log('Notification permission granted.');
+                // TODO(developer): Retrieve an Instance ID token for use with FCM.
+                // In many cases once an app has been granted notification permission, it
+                // should update its UI reflecting this.
+                setTimeout(getToken, 2000);
+            }).catch(function(err) {
+                console.log('Unable to get permission to notify.', err);
+            });
+        }
+
+        requestPermission();
+    })
+
+    function subscribeToTopic(token) {
+        if(!token) {
+			console.error("Error while getting token.");
+            return;
+        }
+
+        var settings = {
+          "async": true,
+          "crossDomain": true,
+          "url": "https://iid.googleapis.com/iid/v1/" + token + "/rel/topics/firebase-webpush",
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json",
+            "Authorization": "key="
+          },
+          "processData": false,
+          "data": ""
+        }
+
+        $.ajax(settings).done(function (response) {
+          console.log("subscribeToTopic: ", JSON.stringify(response));
+        });
+    }
+</script>
+

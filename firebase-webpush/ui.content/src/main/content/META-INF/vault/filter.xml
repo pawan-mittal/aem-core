@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/firebase-webpush" mode="merge"/>
+    <filter root="/content/firebase-webpush" mode="merge"/>
+    <filter root="/content/dam/firebase-webpush" mode="merge"/>
+</workspaceFilter>
