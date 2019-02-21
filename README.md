@@ -70,6 +70,10 @@ Quick Demo GIF - https://pawan-mittal.github.io/allassets.github.io/aem-core/fir
 ## 4. Demo
 
   Watch Live Demo 
+  
+## Resources
+  * https://firebase.google.com/docs/cloud-messaging/js/client
+  * https://firebase.google.com/docs/cloud-messaging/js/send-multiple
 
 # Help
 This project is created using AEM Project Archetype(https://github.com/Adobe-Marketing-Cloud/aem-project-archetype).
