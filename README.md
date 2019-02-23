@@ -47,9 +47,10 @@ Quick Demo GIF - https://pawan-mittal.github.io/allassets.github.io/aem-core/fir
       * Add _**messagingSenderId**_ generated and replace **firebase-messaging-sw.js**_(Line 10)_
  
  ## 4. Send Message to multiple devices
-   1. Update Firebase configurations at [webpush.html](http://localhost:4502/crx/de/index.jsp#/apps/firebase- webpush/components/structure/firebase-page/webpush.html)
-    * Update topic _**firebase-webpush**_ to any value for your project **webpush.html**_(Line 87)_
-    * Same topic will be used to send webpush notification
+   1. Update Firebase configurations at ```http://localhost:4502/crx/de/index.jsp#/apps/firebase- webpush/components/structure/firebase-page/webpush.html```
+   
+  * Update topic _**firebase-webpush**_ to any value for your project **webpush.html**_(Line 87)_
+  * Same topic will be used to send webpush notification
  
     _**Sample POSTMAN Request**_
     ```
@@ -71,6 +72,19 @@ Quick Demo GIF - https://pawan-mittal.github.io/allassets.github.io/aem-core/fir
 
   Watch Live Demo 
   
+## TroubleShoot
+1. Once user allow for Notifications, client browser (Chrome/Safari) should be registered successfully, that can be verified if token is logged on browser console _(logged for debugging, ideally it should be sent to server and saved)_
+
+![Success Token](https://pawan-mittal.github.io/allassets.github.io/aem-core/firebase/success-token.png)
+
+2. If using Chrome browser, then and entry for AEM instance will be added under *Allow* section in setttings [Chrome Settings](chrome://settings/content/notifications), like ```http://localhost:4502``` is shown below in allow settings.
+
+![Chrome Notification Settings](https://pawan-mittal.github.io/allassets.github.io/aem-core/firebase/aem-instance-registration.png)
+
+3. If token is not generated and below error is shown, then first remove AEM Instance URL setting in _(shown above in STEP 2)_ and again referesh same AEM page again.
+
+![Error Token](https://pawan-mittal.github.io/allassets.github.io/aem-core/firebase/error-token.png)
+
 ## Resources
   * https://firebase.google.com/docs/cloud-messaging/js/client
   * https://firebase.google.com/docs/cloud-messaging/js/send-multiple
