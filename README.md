@@ -58,12 +58,15 @@ Quick Demo GIF - https://pawan-mittal.github.io/allassets.github.io/aem-core/fir
     Headers 
          Content-Type:application/json
          Authorization: key=<SERVER-KEY>
-    Body: {
-      "to" : "/topics/<TOPIC>",
+    Body: 
+    {
+      "to" : "/topics/firebase-webpush",
       "priority" : "high",
-      "notification" : {
-        "body" : "Enjoy!",
-        "title" : "Hello AEM Developers",
+      "data" : {
+	  	  "notification" : {
+	        "body" : "Enjoy!",
+	        "title" : "Hello AEM Developers!",
+	      }
       }
     }
     ```
