@@ -73,7 +73,7 @@ Quick Demo GIF - https://pawan-mittal.github.io/allassets.github.io/aem-core/fir
 
 ## 4. Demo
 
-  Watch Live Demo 
+  Watch Live Demo - https://www.youtube.com/watch?v=GCT-gL2EaMw&t=78s
   
 ## TroubleShoot
 1. Once user allow for Notifications, client browser (Chrome/Safari) should be registered successfully, that can be verified if token is logged on browser console _(logged for debugging, ideally it should be sent to server and saved)_
